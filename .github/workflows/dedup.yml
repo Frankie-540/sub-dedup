@@ -5,7 +5,7 @@ name: Sub Dedup Auto Run
 # workflow_dispatch: 网页手动点击运行
 on:
   schedule:
-    - cron: '38 * * * *'
+    - cron: '38 */3 * * *'
   workflow_dispatch:
 
 jobs:
