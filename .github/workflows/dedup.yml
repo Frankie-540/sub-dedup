@@ -1,7 +1,7 @@
 name: Sub Dedup Auto Run
 
 # 触发规则
-# cron: UTC时区，每小时38分执行；GitHub cron尽力调度，不保证绝对准时
+# cron: UTC时区，每3小时38分执行；GitHub cron尽力调度，不保证绝对准时
 # workflow_dispatch: 网页手动点击运行
 on:
   schedule:
